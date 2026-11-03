@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts (large binary files — optional, uncomment to exclude)
+# backend/models/*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset (large file — optional, uncomment to exclude)
+# backend/dataset/creditcard.csv
+
+backend/dataset/*.csv
+.env
+*.log
