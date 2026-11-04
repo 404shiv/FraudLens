@@ -1,6 +1,8 @@
 # ==========================================
 # FraudLens - Credit Card Fraud Detection API
 # ==========================================
+from dotenv import load_dotenv
+load_dotenv()
 
 import os
 import sys
